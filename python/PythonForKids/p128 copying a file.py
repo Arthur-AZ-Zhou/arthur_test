@@ -1,0 +1,6 @@
+file = open('D:\\data\\Arthur\\python\\text.txt')
+text = file.read()
+file.close()
+file = open('output.txt','w')
+file.write(text)
+file.close()

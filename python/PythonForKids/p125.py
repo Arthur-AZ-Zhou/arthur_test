@@ -1,0 +1,8 @@
+test_file = open('D:\\data\\Arthur\\python\\text.txt')
+text=test_file.read()
+print(text)
+test_file = open('D:\\data\\Arthur\\python\\text.txt','w')
+test_file.write('This is my test file. ')
+test_file.close()
+test_file = open('D:\\data\\Arthur\\python\\text.txt')
+print(test_file.read())
